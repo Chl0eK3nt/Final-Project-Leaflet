@@ -1,0 +1,29 @@
+/*styling for body of webpage*/
+body { 
+    margin:0; 
+    padding:0; 
+}
+
+/*styling for title block of map*/
+#titlemap { 
+    margin: auto;
+    text-align: center;
+    position: relative;  
+    float: center; 
+    background: pink; 
+    border: 4px solid white; 
+    padding: 6px 8px; 
+    font-family: Oswald; 
+    font-weight: bold; 
+    font-size: 20px; 
+    z-index: 400; 
+}
+
+/*styling for leaflet map*/
+#map { 
+    position: absolute; 
+    top:0; 
+    bottom:0; 
+    right:0; 
+    left:0; 
+}
